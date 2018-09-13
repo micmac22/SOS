@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    /* display: block; */
+    width: 80%;
+    background-color: #ddd;
+}
+
+header {
+    display: flex;
+    height: 30vh;
+    width: 80%;
+    background-image: url(IMG/styggkarret-433688_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header p {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+main {
+    height: 100px;
+    background-color: #ccc;
+    width: 60%;
+}
+
+aside {
+    height: 100px;
+    width: 20%;
+    background-color: red;
+}
